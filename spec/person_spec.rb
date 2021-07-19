@@ -130,7 +130,7 @@ describe Tmdb::Person do
   context '#tagged_images' do
     let(:tagged_images) do
       VCR.use_cassette 'person/tagged_images' do
-        Tmdb::Person.tagged_images(287)
+        Tmdb::Person.tagged_images(1397778)
       end
     end
 
