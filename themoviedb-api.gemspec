@@ -19,10 +19,10 @@ Gem::Specification.new do |s|
   s.test_files    = s.files.grep(%r{^(test|spec|features)/})
   s.require_paths = %w[lib]
 
-  s.add_runtime_dependency 'rest-client', '~> 2.0', '>= 2.0'
+  s.add_runtime_dependency 'rest-client', '2.0.2'
 
   s.add_development_dependency 'awesome_print', '~> 1.8',   '>= 1.8'
-  s.add_development_dependency 'vcr',           '~> 4.0',   '>= 4.0'
+  s.add_development_dependency 'vcr',           '~> 6.0',   '>= 6.0'
   s.add_development_dependency 'rake',          '>= 12.3.3', '~> 13.0'
   s.add_development_dependency 'rspec',         '~> 3.7',   '>= 3.7'
   s.add_development_dependency 'webmock',       '~> 3.3',   '>= 3.3'
